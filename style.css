@@ -123,26 +123,29 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
     width: 70px;
     height: 50px;
-    overflow: hidden;
+
     flex-shrink: 0;
+
+    transition: opacity 0.25s ease;
 }
 
 .logo img {
-    display: block !important;
-    width: 65px !important;
-    height: 45px !important;
-    max-width: 65px !important;
-    max-height: 45px !important;
+    display: block;
+
+    width: 58px;
+    height: auto;
+
+    max-width: 58px;
+
     object-fit: contain;
-    object-position: center;
 }
 
 .logo:hover {
-    opacity: 0.85;
+    opacity: 0.8;
 }
-
 .nav-links {
 
     display: flex;
@@ -1207,6 +1210,16 @@ a {
     html {
         scroll-behavior: auto;
     }
+
+   .logo {
+    width: 55px;
+    height: 40px;
+}
+
+.logo img {
+    width: 48px;
+    max-width: 48px;
+}
 
 
     *,
