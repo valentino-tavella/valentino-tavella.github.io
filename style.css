@@ -122,14 +122,21 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    height: 42px;
-    transition: opacity 0.25s ease;
+    justify-content: flex-start;
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .logo img {
-    display: block;
-    width: auto;
-    height: 34px;
+    display: block !important;
+    width: 65px !important;
+    height: 45px !important;
+    max-width: 65px !important;
+    max-height: 45px !important;
+    object-fit: contain;
+    object-position: center;
 }
 
 .logo:hover {
