@@ -4,70 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Valentino Tavella - Cybersecurity Portfolio">
+
     <title>Valentino Tavella | Cybersecurity Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">
-                VT
-            </div>
+    <!-- NAVIGATION -->
 
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#writeups">Writeups</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <main>
 
-        <!-- Hero Section -->
-        <section id="hero">
+    <!-- HERO -->
 
-            <p>CYBERSECURITY PORTFOLIO</p>
+    <section id="home" class="hero">
+
+        <div class="hero-content">
 
             <h1>
-                Valentino Tavella
+                Hi, I'm <span>Valentino</span>
             </h1>
 
             <h2>
-                Cybersecurity Student
+                Cybersecurity Student & Aspiring Security Professional
             </h2>
 
             <p>
                 Systems Engineering student focused on cybersecurity,
-                ethical hacking and hands-on security labs.
+                penetration testing, networking and practical security research.
             </p>
 
-            <div>
-                <a href="https://github.com/valentino-tavella" target="_blank">
+            <div class="buttons">
+
+                <a href="#projects" class="btn">
+                    View My Work
+                </a>
+
+                <a href="https://github.com/valentino-tavella"
+                   class="btn"
+                   target="_blank">
                     GitHub
                 </a>
 
-                <a href="#contact">
-                    Contact Me
-                </a>
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- About Section -->
-        <section id="about">
+    <!-- ABOUT -->
 
-            <h2>About Me</h2>
+    <section id="about">
+
+        <h2>
+            About <span>Me</span>
+        </h2>
+
+        <div class="about">
 
             <p>
-                I am a Systems Engineering student developing my skills
-                in cybersecurity through practical learning and
-                hands-on labs.
+                I am a Systems Engineering student currently developing
+                my skills in cybersecurity through practical learning,
+                hands-on labs and independent projects.
             </p>
 
             <p>
@@ -75,103 +85,208 @@
                 and applications can be analyzed, exploited and secured.
             </p>
 
-        </section>
+            <p>
+                I am particularly interested in penetration testing,
+                vulnerability assessment, network security and
+                binary exploitation.
+            </p>
+
+        </div>
+
+    </section>
 
 
-        <!-- Skills Section -->
-        <section id="skills">
+    <!-- SKILLS -->
 
-            <h2>Skills & Tools</h2>
+    <section id="skills">
 
-            <div>
-                <span>Linux</span>
-                <span>Networking</span>
-                <span>Web Security</span>
-                <span>Penetration Testing</span>
-                <span>Nmap</span>
-                <span>Burp Suite</span>
-                <span>Wireshark</span>
-                <span>Metasploit</span>
-                <span>Gobuster</span>
-                <span>GDB</span>
-                <span>Snort</span>
-                <span>CyberChef</span>
+        <h2>
+            <span>Security</span> Skills
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Network Security</h3>
+                <p>
+                    Network enumeration, protocols, traffic analysis
+                    and security fundamentals.
+                </p>
             </div>
 
-        </section>
+            <div class="skill-card">
+                <h3>Web Security</h3>
+                <p>
+                    Web application enumeration, vulnerability analysis
+                    and penetration testing fundamentals.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Linux</h3>
+                <p>
+                    Linux administration, command line tools and
+                    security environments.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Enumeration</h3>
+                <p>
+                    Service discovery, reconnaissance and information
+                    gathering.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Binary Exploitation</h3>
+                <p>
+                    Basic binary analysis, debugging and exploitation
+                    techniques.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Digital Forensics</h3>
+                <p>
+                    Traffic analysis, packet inspection and
+                    forensic fundamentals.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
 
 
-        <!-- Certifications Section -->
-        <section id="certifications">
+    <!-- CERTIFICATIONS -->
 
-            <h2>Certifications</h2>
+    <section id="certifications">
 
-            <article>
+        <h2>
+            <span>Certifications</span> & Training
+        </h2>
 
-                <h3>Cyber Security 101</h3>
+        <div class="certification">
+
+            <h3>
+                Cyber Security 101
+            </h3>
+
+            <p>
+                TryHackMe Learning Path
+            </p>
+
+            <p>
+                Completed September 14, 2026
+            </p>
+
+            <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-QFHVNUPD0R.pdf"
+               class="btn"
+               target="_blank">
+                View Certificate
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2>
+            Security <span>Projects</span>
+        </h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+
+                <h3>TryHackMe Labs</h3>
 
                 <p>
-                    TryHackMe Learning Path
+                    Hands-on cybersecurity labs covering networking,
+                    Linux, web security, enumeration, privilege
+                    escalation and exploitation.
                 </p>
 
-                <p>
-                    Status: Completed
-                </p>
-
-                <p>
-                    September 2026
-                </p>
-
-                <a href="https://github.com/valentino-tavella/cybersecurity-portfolio/tree/main/certifications/cyber-security-101"
+                <a href="https://tryhackme.com/"
+                   class="btn"
                    target="_blank">
-                    View Certification
+                    View Labs
                 </a>
 
-            </article>
-
-        </section>
+            </div>
 
 
-        <!-- Writeups Section -->
-        <section id="writeups">
+            <div class="project-card">
 
-            <h2>Labs & Writeups</h2>
+                <h3>Cybersecurity Writeups</h3>
 
-            <p>
-                Hands-on cybersecurity labs, CTF challenges and
-                technical writeups documenting my learning process.
-            </p>
+                <p>
+                    Technical documentation of CTFs, security labs,
+                    vulnerabilities and exploitation techniques.
+                </p>
 
-            <a href="https://github.com/valentino-tavella/cybersecurity-portfolio/tree/main/writeups"
-               target="_blank">
-                View Writeups
-            </a>
+                <a href="writeups/"
+                   class="btn">
+                    View Writeups
+                </a>
 
-        </section>
+            </div>
 
 
-        <!-- Contact Section -->
-        <section id="contact">
+            <div class="project-card">
 
-            <h2>Contact</h2>
+                <h3>Security Tools</h3>
 
-            <p>
-                Interested in cybersecurity, technology and continuous learning.
-            </p>
+                <p>
+                    Practical notes and examples using tools such as
+                    Nmap, Burp Suite, Wireshark, Gobuster, Nikto,
+                    Metasploit and GDB.
+                </p>
 
-            <a href="https://github.com/valentino-tavella" target="_blank">
-                GitHub
-            </a>
+                <a href="tools/"
+                   class="btn">
+                    View Tools
+                </a>
 
-        </section>
+            </div>
 
-    </main>
+        </div>
 
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <h2>
+            Let's <span>Connect</span>
+        </h2>
+
+        <p>
+            Interested in cybersecurity, technology and security research?
+        </p>
+
+        <a href="https://github.com/valentino-tavella"
+           class="btn"
+           target="_blank">
+            GitHub
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
 
     <footer>
 
         <p>
-            © 2026 Valentino Tavella
+            © 2026 Valentino Tavella — Cybersecurity Portfolio
         </p>
 
     </footer>
