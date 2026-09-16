@@ -123,23 +123,17 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
-    width: 70px;
-    height: 50px;
-
+    width: 95px;
+    height: 55px;
     flex-shrink: 0;
-
     transition: opacity 0.25s ease;
 }
 
 .logo img {
     display: block;
-
-    width: 58px;
+    width: 85px;
     height: auto;
-
-    max-width: 58px;
-
+    max-width: 85px;
     object-fit: contain;
 }
 
@@ -1068,6 +1062,16 @@ a {
 
     }
 
+   .logo {
+    width: 70px;
+    height: 45px;
+}
+
+.logo img {
+    width: 65px;
+    max-width: 65px;
+}
+
 
     .nav-links {
 
@@ -1211,14 +1215,14 @@ a {
         scroll-behavior: auto;
     }
 
-   .logo {
-    width: 55px;
-    height: 40px;
+.logo {
+    width: 70px;
+    height: 45px;
 }
 
 .logo img {
-    width: 48px;
-    max-width: 48px;
+    width: 65px;
+    max-width: 65px;
 }
 
 
