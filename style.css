@@ -123,23 +123,30 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 95px;
-    height: 55px;
+
+    width: 130px;
+    height: 65px;
+
     flex-shrink: 0;
+
     transition: opacity 0.25s ease;
 }
 
 .logo img {
     display: block;
-    width: 85px;
+
+    width: 120px;
     height: auto;
-    max-width: 85px;
+    max-width: 120px;
+
     object-fit: contain;
 }
 
 .logo:hover {
     opacity: 0.8;
 }
+
+
 .nav-links {
 
     display: flex;
@@ -1027,6 +1034,20 @@ a {
 
     }
 
+ 
+
+    .logo {
+        width: 90px;
+        height: 55px;
+    }
+
+    .logo img {
+        width: 85px;
+        max-width: 85px;
+    }
+
+
+
 
     .about-content,
     .contact-content {
@@ -1062,15 +1083,17 @@ a {
 
     }
 
-   .logo {
-    width: 70px;
-    height: 45px;
-}
 
-.logo img {
-    width: 65px;
-    max-width: 65px;
-}
+    .logo {
+        width: 90px;
+        height: 55px;
+    }
+
+    .logo img {
+        width: 85px;
+        max-width: 85px;
+    }
+
 
 
     .nav-links {
