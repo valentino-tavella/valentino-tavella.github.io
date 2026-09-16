@@ -120,24 +120,21 @@ a {
 
 
 .logo {
-
-    font-size: 20px;
-
-    font-weight: 700;
-
-    letter-spacing: 0.12em;
-
-    color: var(--text);
-
-    transition: color 0.25s ease;
-
+    display: flex;
+    align-items: center;
+    height: 42px;
+    transition: opacity 0.25s ease;
 }
 
+.logo img {
+    display: block;
+    width: auto;
+    height: 34px;
+}
 
 .logo:hover {
-    color: var(--accent-light);
+    opacity: 0.85;
 }
-
 
 .nav-links {
 
